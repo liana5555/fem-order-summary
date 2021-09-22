@@ -31,7 +31,7 @@ body {
   background-position: center center;
   background-color: #e0e8ff;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 @media (min-width: 40rem) {
@@ -62,7 +62,6 @@ main {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  overflow: hidden;
   padding: 0;
   -webkit-box-shadow: 0 10px 30px #a6a6a6;
           box-shadow: 0 10px 30px #a6a6a6;
@@ -80,6 +79,8 @@ main header {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #3829e0;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
   overflow: hidden;
   min-height: 10rem;
   margin-left: 0;
