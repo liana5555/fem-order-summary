@@ -76,7 +76,7 @@ main {
 main header {
   background-image: url("/images/illustration-hero.svg");
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: #3829e0;
   border-top-left-radius: 1.25rem;
